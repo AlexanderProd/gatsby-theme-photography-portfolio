@@ -1,4 +1,5 @@
 const fs = require("fs")
+const path = require("path")
 const slugify = require("slugify")
 
 const { imagesQuery, categoriesQuery } = require("./queries")
@@ -11,7 +12,8 @@ exports.onPreBootstrap = ({ reporter }) => {
   }
 }
 
-exports.createPages = async ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions }, options) => {
+  const basePath = options.basePath || "/"
   const { createPage } = actions
 
   const {
@@ -23,7 +25,7 @@ exports.createPages = async ({ graphql, actions }) => {
     const categorySlug = slugify(categoryName)
 
     await createPage({
-      path: `/${categorySlug}`,
+      path: path.join(basePath, categorySlug),
       component: require.resolve("./src/templates/CategoryPage/index.js"),
       context: {
         id,

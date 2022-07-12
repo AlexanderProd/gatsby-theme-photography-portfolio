@@ -1,6 +1,6 @@
 {
   "name": "gatsby-theme-photography-portfolio",
-  "private": true,
+  "private": false,
   "description": "A gatsby theme featuring a minimalistic design based on a bold image grid.",
   "version": "1.0.0",
   "author": "Alexander Hörl <mail@alexanderhoerl.de>",
@@ -38,7 +38,17 @@
     "react-dom": "^18.2.0"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme",
+    "gatsby-source-filesystem",
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-image",
+    "minimalistic",
+    "photography",
+    "portfolio",
+    "exif",
+    "grid"
   ],
   "license": "0BSD",
   "scripts": {
@@ -52,9 +62,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/AlexanderProd/gatsby-theme-photography-portfolio"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/AlexanderProd/gatsby-theme-photography-portfolio/issues"
   }
 }
