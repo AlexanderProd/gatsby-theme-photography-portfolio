@@ -20,7 +20,7 @@ Check out a [live demo](https://photography.alexanderhoerl.de).
 
 ### For a new site
 
-If you’re creating a new site and want to use this theme, you can use the blog a starter. This will generate a new site that pre-configures use of the blog theme.
+If you’re creating a new site and want to use this theme, you can use the default gatsby starter and add install the photography portfolio theme.
 
 ### For an existing site
 
