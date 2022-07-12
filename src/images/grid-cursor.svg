@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64.37">
+  <path d="M0,14.29H14.23V.06H0V14.29Z" style="fill: rgba(1, 1, 1, .99);"/>
+  <path d="M25.23,14.23h14.23V0h-14.23V14.23Z" style="fill: rgba(1, 1, 1, .99);"/>
+  <path d="M49.77,14.23h14.23V0h-14.23V14.23Z" style="fill: rgba(1, 1, 1, .99);"/>
+  <path d="M0,39.86H14.23v-14.23H0v14.23Z" style="fill: rgba(1, 1, 1, .99);"/>
+  <path d="M24.9,39.8h14.23v-14.23h-14.23v14.23Z" style="fill: rgba(1, 1, 1, .99);"/>
+  <path d="M49.77,39.8h14.23v-14.23h-14.23v14.23Z" style="fill: rgba(1, 1, 1, .99);"/>
+  <path d="M0,64.37H14.23v-14.23H0v14.23Z" style="fill: rgba(1, 1, 1, .99);"/>
+  <path d="M25.2,64.31h14.23v-14.23h-14.23v14.23Z" style="fill: rgba(1, 1, 1, .99);"/>
+  <path d="M49.74,64.31h14.23v-14.23h-14.23v14.23Z" style="fill: rgba(1, 1, 1, .99);"/>
+</svg>
