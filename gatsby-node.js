@@ -1,6 +1,10 @@
 const fs = require("fs")
 const path = require("path")
 const slugify = require("slugify")
+const exif = require("exif")
+const { promisify } = require("util")
+
+const exifImage = promisify(exif)
 
 const { imagesQuery, categoriesQuery } = require("./queries")
 
@@ -40,6 +44,11 @@ exports.createPages = async ({ graphql, actions }, options) => {
     images.edges.forEach(async (image, i) => {
       const { id, name, absolutePath } = image.node
 
+      let exifData
+      try {
+        exifData = await exifImage(absolutePath)
+      } catch {}
+
       const previousImage = `/${categorySlug}/${slugify(
         images.edges[i === 0 ? images.edges.length - 1 : i - 1].node.name
       )}`
@@ -49,7 +58,7 @@ exports.createPages = async ({ graphql, actions }, options) => {
       )}`
 
       await createPage({
-        path: `/${categorySlug}/${slugify(name)}`,
+        path: path.join(basePath, categorySlug, slugify(name)),
         component: require.resolve("./src/templates/PhotoPage/index.js"),
         context: {
           id,
@@ -57,6 +66,7 @@ exports.createPages = async ({ graphql, actions }, options) => {
           categoryName: categorySlug,
           previousImage,
           nextImage,
+          exifData,
         },
       })
     })

@@ -16,6 +16,15 @@ If you want to categorize your images just put them in different folders.
 
 Check out a [live demo](https://photography.alexanderhoerl.de).
 
+## 💎 Features
+
+- Swipe gesture support
+- Short loading times
+- Social media share images
+- Quick to navigate
+- Minimalistic unobtrusive UI
+- Background based on main color
+
 ## 🚀 Installation
 
 ### For a new site
