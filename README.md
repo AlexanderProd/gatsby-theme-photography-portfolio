@@ -8,6 +8,10 @@
   Gatsby Theme Photography Portfolio
 </h1>
 
+<video muted loop playsInline autoPlay style="width: 100%; height: auto;">
+  <source src="ressources/demo.mp4" type="video/mp4" />
+</video>
+
 This is a gatsby theme with big image grid and a minimalistic interface, the whole UI stays out of the way unless opened by hamburger menu. Perfect for keeping the focus on the images.
 
 Every image has its own fullscreen page and all images of a category can be flipped through quickly. Thanks to `gatsby-plugin-sharp` and `gatsby-plugin-image` it also loads very quickly and viewing the images in a "dia show" kind of way is fun.
