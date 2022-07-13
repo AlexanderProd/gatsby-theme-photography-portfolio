@@ -2,7 +2,7 @@
   "name": "gatsby-theme-photography-portfolio",
   "private": false,
   "description": "A gatsby theme featuring a minimalistic design based on a bold image grid.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Alexander Hörl <mail@alexanderhoerl.de>",
   "main": "gatsby-config.js",
   "dependencies": {
