@@ -10,7 +10,7 @@
 
 This is a gatsby theme with big image grid and a minimalistic interface, the whole UI stays out of the way unless opened by hamburger menu. Perfect for keeping the focus on the images.
 
-Every image has its own fullscreen page and all images of a category can be flipped through quickly. Thanks to `gatsby-plugin-sharp` and `gatsby-plugin-image` it also loads very quickly and viewing the images in a "dia show" kind of way is fun.
+Every image has its own fullscreen page and all images of a category can be flipped through quickly. Thanks to `gatsby-plugin-sharp` and `gatsby-plugin-image` the load times are are also very short.
 
 If you want to categorize your images just put them in different folders.
 
@@ -29,7 +29,13 @@ Check out a [live demo](https://photography.alexanderhoerl.de).
 
 ### For a new site
 
-If you’re creating a new site and want to use this theme, you can use the default gatsby starter and add install the photography portfolio theme.
+1.  Create a Gatsby site.
+
+    To quickly create a new Gatsby page with the `gatsb-theme-photography-portfolio` you can use my starter.
+
+    ```shell
+    npx gatsby new gatsby-photography-portfolio https://github.com/AlexanderProd/gatsby-starter-photography-portfolio
+    ```
 
 ### For an existing site
 
@@ -69,3 +75,7 @@ If you already have a site you’d like to add the blog theme to, you can manual
 | Key          | Default value | Description                                |
 | ------------ | ------------- | ------------------------------------------ |
 | `imagesPath` | `images`      | The directory where the images are stored. |
+
+## Deploy
+
+Checkout my other open-source project [JAMStackBox](https://github.com/AlexanderProd/jam-stack-box) to continuously deploy your Gatsby site on your own server.
