@@ -29,13 +29,11 @@ Check out a [live demo](https://photography.alexanderhoerl.de).
 
 ### For a new site
 
-1.  Create a Gatsby site.
+To quickly create a new Gatsby page with the `gatsb-theme-photography-portfolio` you can use my [starter](https://github.com/AlexanderProd/gatsby-starter-photography-portfolio).
 
-    To quickly create a new Gatsby page with the `gatsb-theme-photography-portfolio` you can use my starter.
-
-    ```shell
-    npx gatsby new gatsby-photography-portfolio https://github.com/AlexanderProd/gatsby-starter-photography-portfolio
-    ```
+```shell
+npx gatsby new gatsby-photography-portfolio https://github.com/AlexanderProd/gatsby-starter-photography-portfolio
+```
 
 ### For an existing site
 
